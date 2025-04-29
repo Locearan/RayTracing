@@ -25,9 +25,10 @@ A real-time ray tracing application built using **C++**, **Vulkan**, and **Dear 
   - Adjust material properties (color, emission, roughness, metallic)
   - Reset accumulation buffer after changes
 - Toggle **accumulation** for better visual quality over time
-- 
+
 ### Build Steps
 
+```bash
 Clone recursively: git clone --recursive https://github.com/Locearan/RayTracing
 Run scripts/Setup.bat
 Open RayTracing.sln and hit F5 (preferably change configuration to Release or Dist first, Debug is slow)
