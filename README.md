@@ -3,10 +3,10 @@
 A real-time ray tracing application built using **C++**, **Vulkan**, and **Dear ImGui**. This project demonstrates physically-based lighting, emissive materials, and dynamic scene composition with real-time parameter editing via ImGui.
 
 ![Screenshot 1](./images/one.png)
-*Example with cyan emissive lighting*
+*Example with red emissive lighting*
 
 ![Screenshot 2](./images/two.png)
-*Example with red emissive lighting*
+*Example with cyan emissive lighting*
 
 ## Features
 
@@ -28,10 +28,7 @@ A real-time ray tracing application built using **C++**, **Vulkan**, and **Dear 
 - 
 ### Build Steps
 
-```bash
-git clone https://github.com/your-username/vulkan-raytracing-app.git
-cd vulkan-raytracing-app
-mkdir build && cd build
-cmake ..
-make
+Clone recursively: git clone --recursive https://github.com/Locearan/RayTracing
+Run scripts/Setup.bat
+Open RayTracing.sln and hit F5 (preferably change configuration to Release or Dist first, Debug is slow)
 
